@@ -1,0 +1,28 @@
+/*
+task t1{
+	doLast{
+		println"welcome to gradle 1"
+	}
+}*/
+
+/*
+task t1 <<{
+	println"welcome to gradle 2"
+}*/
+/*
+task t1{
+	println"welcome to gradle 3"
+}*/
+/*
+task t1
+	t1{
+	doLast{println"welcome to gradle 4"}
+	}
+*/
+
+task t1
+	t1{
+	println"welcome to gradle 5"
+	}
+// cmd>gradle tasks --all
+// cmd>gradle t1
